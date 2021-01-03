@@ -5,7 +5,7 @@ const ImageDetail = props => {
     console.log(props);
     return (
         <View>
-            <Image source={props.source} />
+            <Image source={props.imageSource} />
             <Text>{props.title}</Text>
         </View>
     );
