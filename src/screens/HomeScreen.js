@@ -6,7 +6,7 @@ import {
     Button,
     TouchableOpacity } from "react-native";
 
-const HomeScreen = (props) => {
+const HomeScreen = props => {
   return (
       <View>
           <Text style={styles.text}>Joe's Phone</Text>
