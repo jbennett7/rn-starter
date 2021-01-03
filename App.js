@@ -13,7 +13,7 @@ const navigator = createStackNavigator(
     Image: ImageScreen
   },
   {
-    initialRouteName: 'Image',
+    initialRouteName: 'Home',
     defaultNavigationOptions: {
       title: 'App',
     },
