@@ -5,7 +5,7 @@ const HomeScreen = () => {
   return (
       <View>
           <Text style={styles.text}>Joe's Phone</Text>
-          <Button />
+          <Button title="Go to Components Demo" />
       </View>
   );
 };
