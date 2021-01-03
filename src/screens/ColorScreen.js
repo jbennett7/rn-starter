@@ -20,7 +20,7 @@ const ColorScreen = () => {
                             style={{
                                 height: 100,
                                 width: 100,
-                                backgroundColor: randomRgb()
+                                backgroundColor: item
                             }}
                         />
                     );
