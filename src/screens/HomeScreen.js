@@ -7,7 +7,7 @@ import {
     TouchableOpacity } from "react-native";
 
 const HomeScreen = (props) => {
-  consol.log(props);
+  console.log(props);
   return (
       <View>
           <Text style={styles.text}>Joe's Phone</Text>
