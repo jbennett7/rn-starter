@@ -6,9 +6,8 @@ const ImageScreen = () => {
     return (
         <View>
             <ImageDetail title="Forest" />
-            <ImageDetail />
-            <ImageDetail />
-            <ImageDetail />
+            <ImageDetail title="Beach" />
+            <ImageDetail title="Mountain" />
         </View>
     );
 };
