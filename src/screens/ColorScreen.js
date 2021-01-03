@@ -9,6 +9,7 @@ const ColorScreen = () => {
                 title="Add a Color"
                 onPress={() => {
                     setColors([...colors, randomRgb()])
+                }}
             />
             <View
                 style={{
