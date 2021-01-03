@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
 const CounterScreen = () => {
-    // TODO: fix this
-    let counter = 0;
+    const [counter, setCounter] = useState(0);
+
     return (
         <View>
             <Button
