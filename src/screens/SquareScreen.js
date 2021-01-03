@@ -1,9 +1,14 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import ColorCounter from '../components/ColorCounter';
 
 const SquareScreen = () => {
     return (
-        <Text>Square Screen</Text>
+        <View>
+            <ColorCounter />
+            <ColorCounter />
+            <ColorCounter />
+        </View>
     );
 };
 
