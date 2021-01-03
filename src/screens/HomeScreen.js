@@ -6,7 +6,7 @@ const HomeScreen = () => {
       <View>
           <Text style={styles.text}>Joe's Phone</Text>
           <Button
-              onPress={() => console.log('Button pressed')}
+              onPress={() => console.log('Button  pressed')}
               title="Go to Components Demo"
           />
       </View>
