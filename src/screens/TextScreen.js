@@ -15,7 +15,7 @@ const TextScreen = () => {
             />
             { name.length < 5
               ? <Text>Password must be longer than 5 characters.</Text>
-              : <Text></Text>
+              : null
             }
 //            {true ? <Text>TRUE</Text> : <Text>FALSE</Text>}
         </View>
