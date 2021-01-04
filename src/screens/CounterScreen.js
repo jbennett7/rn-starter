@@ -33,7 +33,7 @@ const CounterScreen = () => {
                     dispatch({ type: 'decrement'});
                 }}
             />
-            <Text>Current Count: {state}</Text>
+            <Text>Current Count: {state.count}</Text>
         </View>
     );
 };
