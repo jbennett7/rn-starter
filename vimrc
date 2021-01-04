@@ -17,7 +17,6 @@ function Update()
 endfunction
 command! -nargs=0 -complete=command Update call Update()
 
-" note
 function UpdateAll(msg)
   if empty(a:msg)
     let l:msg = "changes"
