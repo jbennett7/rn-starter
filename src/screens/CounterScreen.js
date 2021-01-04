@@ -5,7 +5,7 @@ const reducer = (state, action) => {
     // state === number
     // action === change_increase || change_decrease 
 
-    switch(action.type) {
+    switch(action) {
         case 'change_increase':
             return state + 1;
         case 'change_decrease':
