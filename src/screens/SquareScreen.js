@@ -19,7 +19,7 @@ const reducer = (state, action) => {
             return state.green + action.amount > 255 ||
                 state.green + action.amount < 0
                     ? state
-                    : { ...state, red: state.red + action.amount };
+                    : { ...state, green: state.green + action.amount };
         case 'blue':
             return state.blue + action.amount > 255 ||
                 state.blue + action.amount < 0
