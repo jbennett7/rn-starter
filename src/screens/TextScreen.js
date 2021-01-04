@@ -10,7 +10,7 @@ const TextScreen = () => {
                 style={styles.input}
                 autoCapitalize="none"
                 autoCorrect={false}
-                value={name}
+                value={password}
                 onChangeText={(newValue) => setPassword(newValue)}
             />
             { password.length < 6
