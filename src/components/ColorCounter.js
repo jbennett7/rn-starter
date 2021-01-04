@@ -19,4 +19,4 @@ const ColorCounter = ({ color }) => {
 
 const styles = StyleSheet.create({});
 
-export default SquareCounter;
+export default ColorCounter;
