@@ -26,6 +26,7 @@ const SquareScreen = () => {
 
     const { red, green, blue } = state;
 
+    console.log(state);
     return (
         <View>
             <ColorCounter
