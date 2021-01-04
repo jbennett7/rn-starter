@@ -12,6 +12,7 @@ const reducer = (state, action) => {
             return state - 1;
         default:
             return state;
+    }
 };
 
 const CounterScreen = () => {
