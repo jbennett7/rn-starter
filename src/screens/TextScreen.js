@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TextInput } from 'react-native';
 
 const TextScreen = () => {
     return (
         <View>
-            <Text>Text Screen</Text>
+            <TextInput />
         </View>
     );
 };
