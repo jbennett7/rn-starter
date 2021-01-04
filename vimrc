@@ -1,4 +1,15 @@
 let s:env = "!ssh ubuntu@tomcat -C 'cd rn-starter;"
+let mapleader="-"
+set number
+set expandtab
+set shiftwidth=4
+inoremap jk <esc>
+if has("gui_running")
+    inoremap <esc> <nop>
+endif
+
+nnoremap <leader>ga :execute '!git add ' . expand("%")<cr>
+nnoremap <leader>gs :echo system('git status')<cr>
 
 function Update()
   let l:cmd = "git pull origin main"
@@ -6,6 +17,7 @@ function Update()
 endfunction
 command! -nargs=0 -complete=command Update call Update()
 
+" note
 function UpdateAll(msg)
   if empty(a:msg)
     let l:msg = "changes"
@@ -13,7 +25,7 @@ function UpdateAll(msg)
     let l:msg = a:msg
   endif
   execute "!git add " . expand("%")
-  call GitCommit(l:msg)
+  execute "!git commit -m" . l:msg
   execute "!git push origin main"
   call Update()
 endfunction
