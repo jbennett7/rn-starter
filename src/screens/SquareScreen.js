@@ -14,7 +14,7 @@ const SquareScreen = () => {
     console.log(blue);
 
     const setColor = (color, change) => {
-        // color === 'red', 'green', 'blue'j
+        // color === 'red', 'green', 'blue'
         // change === +15, -15
         switch (color) {
             case 'red':
