@@ -10,6 +10,7 @@ const TextScreen = () => {
                 autoCapitalize="none"
                 autoCorrect={false}
                 value={name}
+                onChangeText={(newValue) => setName(newValue)}
             />
         </View>
     );
