@@ -1,4 +1,4 @@
-let s:env = "!ssh ubuntu@tomcat -C 'cd rn-starter;"
+let s:env = "!ssh ubuntu@ubuntu -C 'cd rn-starter;"
 let mapleader="-"
 set number
 set expandtab
@@ -32,7 +32,7 @@ command! -nargs=* -complete=command UpdateAll call UpdateAll(<q-args>)
 
 function Start_NR()
   let l:cmd = "npm start"
-  !ssh -N -f -L localhost:19002:localhost:19002 ubuntu@tomcat
+  !ssh -N -f -L localhost:19002:localhost:19002 ubuntu@ubuntu
   !firefox http://localhost:19002 &
 endfunction
 command! -nargs=0 -complete=command Startnr call Start_NR()
